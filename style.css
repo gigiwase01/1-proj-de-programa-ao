@@ -2,7 +2,7 @@
 
 :root {
     --cor-de-fundo: #1E1E1E;
-    --verde: hsl(224, 100%, 67%);
+    --verde: hsl(86, 100%, 67%);
     --branco: #FFFFFF;
     --botao-ativo: #3A375E;
     --botao-inativo: rgba(58, 55, 94, 0.5);
@@ -24,6 +24,7 @@ body {
     width: 100%;
     margin: 0 auto;
 }
+
 .titulo-principal span {
     color: var(--verde);
     text-align: left;
