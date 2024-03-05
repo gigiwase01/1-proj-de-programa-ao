@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
+
 :root {
     --cor-de-fundo: #1E1E1E;
     --verde: hsl(224, 100%, 67%);
@@ -7,6 +9,11 @@
     --texto-fundo: rgba(58, 55, 94, 0.3);
 }
 
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    font-family: 'Chakra Petch', sans-serif;
+}
 
 .conteudo-principal {
     display: flex;
@@ -55,7 +62,7 @@
 }
 
 .botao:last-child {
-    border-radius: 0 40px 0 0;
+    border-radius: 0 0 0 40px;
 }
 
 .ativo{
